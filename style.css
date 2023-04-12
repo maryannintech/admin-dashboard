@@ -26,6 +26,8 @@ header {
     background-color: #ffff;
     font-weight: 500;
     display: grid;
+    height: fit-content;
+    grid-template-rows: repeat(2, 100px);
     padding: 8px 24px;
     grid-column: 2;
     box-shadow: var(--box-shadow);
@@ -35,6 +37,7 @@ header {
 .secondrow {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    grid-template-rows: 80px;
     align-items: center;
 }
 
@@ -46,9 +49,22 @@ header {
     height: 40px;
 }
 
-.left, 
+.left {
+    display: grid;
+    grid-template-columns: 30px auto;
+    align-items: center;  
+}
+
 .right {
-    align-self: center;
+    display: grid;
+    justify-content: end;
+}
+
+.right-content {
+    display: grid;
+    grid-template-columns: 50px 50px 100px;
+    justify-items: center;
+    align-items: center;
 }
 
 .secondrow {
@@ -57,6 +73,19 @@ header {
 
 .secondrow img {
     height: 50px;
+    grid-row: 1 / 2;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 70px 200px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.name {
+    display: block;
+    font-size: 18px;
 }
 
 .buttons {
