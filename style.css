@@ -51,7 +51,7 @@ header {
 
 .left {
     display: grid;
-    grid-template-columns: 30px auto;
+    grid-template-columns: 48px auto;
     align-items: center;  
 }
 
@@ -67,7 +67,8 @@ header {
     align-items: center;
 }
 
-.bx-bell {
+.bx-bell,
+.bx-search {
     font-size: 28px;
 }
 
