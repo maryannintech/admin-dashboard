@@ -8,6 +8,7 @@
 :root {
     --green-color: #4c956c;
     --bg-color: #dee2e6;
+    --box-shadow: 0px 3px 10px 0px grey;
 }
 
 img {
@@ -27,6 +28,7 @@ header {
     display: grid;
     padding: 8px 24px;
     grid-column: 2;
+    box-shadow: var(--box-shadow);
 }
 
 .firstrow, 
