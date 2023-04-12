@@ -1,8 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --green-color: #4c956c;
+    --bg-color: #dee2e6;
+}
+
+img {
+    height: 50px;
+    border-radius: 30px;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+header {
+    background-color: #ffff;
+    font-weight: 500;
+    display: grid;
+    padding: 8px 24px;
+    grid-column: 2;
+}
+
+.firstrow, 
+.secondrow {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+
+.firstrow {
+    grid-row: 1;
+}
+
+.secondrow {
+    grid-row: 2;
+}
+
+.buttons {
+    justify-self: end;
+}
+
+input[type="search"]{
+    background-color: var(--bg-color);
+    width: 500px;
+    border: 1px solid var(--bg-color);
+    border-radius: 50px;
+}
+
+button {
+    border-radius: 30px;
+    padding: 5px 14px;
+    color: #ffff;
+    background-color: #d68c45;
+    border: 1px solid #d68c45;
+    cursor: pointer;
+    margin: 5px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 30px 0;
+}
+
+li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar {
+    background-color: var(--green-color);
+    color: #ffff;
+    font-weight: 500;
+    padding: 24px;
+    grid-column: 1;
+    grid-row: 1 / 3;
 }
