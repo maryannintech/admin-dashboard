@@ -211,3 +211,7 @@ main {
     white-space: wrap;
     margin: 0;
 }
+
+.accounts img {
+    width: 40px;
+}
