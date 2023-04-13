@@ -157,7 +157,6 @@ main {
     display: grid;
     column-gap: 18px;
     grid-template-columns: 4fr 2fr;
-    align-items: center;
 }
 
 .cards {
@@ -212,6 +211,30 @@ main {
     margin: 0;
 }
 
+.trending-acoounts {
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-right);
+    width: 350px;
+    padding: 20px 30px;
+}
+
+.accounts {
+    display: grid;
+    grid-template-columns: 80px 200px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 16px;
+}
+
+.accounts p {
+
+}
+
+.accounts span {
+    display: block;
+}
+
 .accounts img {
-    width: 40px;
+    width: 50px;
 }
