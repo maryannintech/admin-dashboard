@@ -192,6 +192,7 @@ h1 {
     border-left: 10px solid #d68c45;
     box-shadow: var(--box-shadow-right);
     margin-top: 0;
+    position: relative;
 }
 
 .options {
@@ -199,10 +200,16 @@ h1 {
     grid-template-columns: repeat(3, 36px);
     justify-content: end;
     column-gap: 16px;
+    margin-top: 100px;
 }
 
 .options .bx {
-    font-size: 1.55rem;
+    font-size: 2rem;
+    position: relative;
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
 }
 
 .announcements {
