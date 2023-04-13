@@ -47,7 +47,7 @@ header {
 }
 
 .firstrow img {
-    height: 40px;
+    height: 50px;
 }
 
 .left {
@@ -63,14 +63,19 @@ header {
 
 .right-content {
     display: grid;
-    grid-template-columns: 80px 50px 100px;
+    grid-template-columns: 90px 80px 100px;
     justify-items: center;
     align-items: center;
+    font-size: 1.30rem;
+}
+
+.right-content img {
+    justify-self: left;
 }
 
 .bx-bell,
 .bx-search {
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .secondrow {
@@ -84,14 +89,14 @@ header {
 
 .profile {
     display: grid;
-    grid-template-columns: 100px 200px;
+    grid-template-columns: 100px 300px;
     align-items: center;
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 .name {
     display: block;
-    font-size: 18px;
+    font-size: 1.70rem;
     margin-top: 6px;
 }
 
@@ -116,6 +121,7 @@ button {
     cursor: pointer;
     margin: 14px;
     font-weight: 700;
+    font-size: 1.05rem;
 }
 
 ul {
@@ -136,19 +142,21 @@ li {
     padding: 24px;
     grid-column: 1;
     grid-row: 1 / 3;
+    font-size: 1.50rem;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 main {
     padding: 24px 28px;
     display: grid;
-    grid-template-columns: 4fr 3fr;
+    column-gap: 18px;
+    grid-template-columns: 4fr 2fr;
 }
 
-.projects {
+.cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-column: 1/2;
@@ -171,7 +179,7 @@ main {
 }
 
 .options .bx {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .announcements {
