@@ -200,7 +200,7 @@ h1 {
     grid-template-columns: repeat(3, 36px);
     justify-content: end;
     column-gap: 16px;
-    margin-top: 99px;
+    margin-top: 98px;
 }
 
 .options .bx {
