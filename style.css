@@ -7,9 +7,11 @@
 
 :root {
     --green-color: #4c956c;
+    --orange-color: #d68c45;
     --bg-color: #dee2e6;
     --box-shadow: 0px 3px 10px 0px grey;
     --box-shadow-right: 0px 2px 5px 0px grey;
+    --box-shadow-lifted: 0px 4px 10px 0px grey;
 }
 
 img {
@@ -120,8 +122,8 @@ button {
     border-radius: 30px;
     padding: 10px 30px;
     color: #ffff;
-    background-color: #d68c45;
-    border: 1px solid #d68c45;
+    background-color: var(--orange-color);
+    border: 1px solid var(--orange-color);
     cursor: pointer;
     margin: 14px;
     font-weight: 700;
@@ -189,11 +191,16 @@ h1 {
     background-color: #ffff;
     padding: 10px 20px;
     border-radius: 10px;
-    border-left: 10px solid #d68c45;
+    border-left: 10px solid var(--orange-color);
     box-shadow: var(--box-shadow-right);
     margin-top: 0;
     position: relative;
     line-height: 1.2;
+}
+
+.proj:hover {
+    transform: translateY(-5px); 
+    box-shadow: var(--box-shadow-lifted);
 }
 
 .options {
@@ -211,6 +218,12 @@ h1 {
     position: absolute;
     bottom: 0;
     margin-bottom: 30px;
+    padding: 7px;
+}
+
+.options .bx:hover {
+    background-color: #4c956ca8;
+    border-radius: 30px;
 }
 
 .announcements {
