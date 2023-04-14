@@ -193,6 +193,7 @@ h1 {
     box-shadow: var(--box-shadow-right);
     margin-top: 0;
     position: relative;
+    line-height: 1.2;
 }
 
 .options {
@@ -235,6 +236,15 @@ h1 {
 .side-content p:not(.title) {
     white-space: wrap;
     margin: 0;
+    line-height: 1.3;
+}
+
+.side-content span {
+    display: inline-block;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .trending {
