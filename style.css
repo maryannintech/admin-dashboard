@@ -152,6 +152,13 @@ ul {
 li {
     margin: 18px 0;
     cursor: pointer;
+    padding: 5px;
+}
+
+li:hover {
+    border: 1px solid #366b4d94;
+    border-radius: 30px;
+    background-color: #366b4d94;
 }
 
 .sidebar {
