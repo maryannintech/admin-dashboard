@@ -71,6 +71,10 @@ header {
     justify-content: end;
 }
 
+.bx-bell:hover {
+    color: var(--orange-color);
+}
+
 .right-content {
     display: grid;
     grid-template-columns: 90px 80px 100px;
