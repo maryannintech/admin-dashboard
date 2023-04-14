@@ -18,6 +18,10 @@ img {
     border-radius: 50px;
 }
 
+img:hover {
+    cursor: pointer;
+}
+
 .bx {
     cursor: pointer;
 }
@@ -93,6 +97,10 @@ header {
     grid-row: 1 / 2;
 }
 
+.secondrow img:hover {
+    border: 5px solid var(--green-color);
+}
+
 .profile {
     display: grid;
     grid-template-columns: 100px 300px;
@@ -128,6 +136,11 @@ button {
     margin: 14px;
     font-weight: 700;
     font-size: 1.05rem;
+}
+
+button:hover {
+    background-color: #c77b33;
+    border-color: #c77b33;
 }
 
 ul {
@@ -196,6 +209,7 @@ h1 {
     margin-top: 0;
     position: relative;
     line-height: 1.2;
+    cursor: pointer;
 }
 
 .proj:hover {
@@ -243,7 +257,12 @@ h1 {
     font-weight: 700;
     font-size: large;
     margin-top: 16px;
-    margin-bottom: 0;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.title:hover {
+    text-decoration: underline;
 }
 
 .side-content p:not(.title) {
@@ -278,11 +297,16 @@ h1 {
     grid-template-columns: 80px 200px;
     align-items: center;
     margin-bottom: 24px;
+    cursor: pointer;
 }
 
 .accounts p {
     font-size: 1.1rem;
     margin: 0;
+}
+
+.accounts:hover {
+    text-decoration: underline;
 }
 
 .accounts span {
